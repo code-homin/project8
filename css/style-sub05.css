@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+/* main-menu css */
+li{list-style-type: none;}
+.container{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    float: center;
+}
+.container h1 a img{
+    width: 130px;
+    margin-top: 15px;
+    margin-left: 25%;
+}
+#main-menu{
+    float: right;
+    margin-right: 26%;
+    margin-top: -80px;
+}
+#main-menu ul li{
+    float: left;
+    padding-left: 50px;
+}
+#main-menu ul li a{
+    color: #fec545;
+    font-weight: bold;
+}
+#main-menu ul li a:hover{
+    color: #f05154;
+}
+/* end main-menu css */
+#map{
+    text-align: center;
+}
+.map-txt h2{
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+.map-txt p{
+    margin-bottom: 20px;
+}
+.map-txt .btn-find{
+    padding: 10px 15px;
+    background: #fec545;
+    margin-bottom: 5%;
+}
+#map-img{
+    width: 1280px;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    margin-top: 5%;
+    height: 200px;
+    background: #f2f2f2;
+}
+footer .footer-logo a img{
+    width: 130px;
+    margin-top: 20px;
+}
+footer .footer-txt{
+    color: #9f9e9e;
+    margin-top: 20px;
+}
+footer .footer-txt a{
+    color: #9f9e9e;
+}
+footer .footer-txt a:hover{
+    color: red;
+}

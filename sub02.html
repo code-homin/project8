@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Summer</title>
+    <link rel="stylesheet" href="css/style-sub02.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- BX Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>
+          <a href="index.html">
+            <img src="images/48386a945bdefa58c9119cd7753fda0c.png" alt="logo">
+          </a>
+        </h1>
+        <!-- 메뉴 
+      sun | optical | neomadeinitaly | titanium | credo | shops
+    -->
+        <nav id="main-menu">
+          <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="sub02.html">OUR SUMMER</a></li>
+            <li><a href="#">HISTORY</a></li>
+            <li><a href="#">PRODUCTS</a></li>
+            <li><a href="sub05.html">MAP</a></li>
+            <li><a href="#">CONTECT</a></li>
+          </ul>
+        </nav>
+      </div><!-- end container -->
+    <header id="sub02-header">
+        <h1>ENJOY 3THINGS WITH US</h1>
+    </header>
+    <section>
+        <div class="sub02-content">
+            <div class="content-party">
+                <h1>PARTY</h1>
+                <a href="#"><img src="images/art-balloons-birthday-221361.jpg" alt="party"></a>
+            </div>
+            <div class="content-relax">
+                <h1>RELAX</h1>
+                <a href="#"><img src="images/azure-bay-beach-1450372.jpg" alt="relax"></a>
+            </div>
+            <div class="content-drink">
+                <h1>DRINK</h1>
+                <a href="#"><img src="images/beach-beverage-cocktail-68672.jpg" alt="drink"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-logo">
+            <a href="#"><img src="images/footer-logo.png" alt="logo"></a>
+        </div>
+        <div class="footer-txt">
+        <p>
+            <a href="#">이용약관</a>
+            |
+            <a href="#"> 개인정보처리방침</a>
+            <span> - Copyright © 2019 Pramaor Srl - All rights reserved.</span>
+        </p>
+        </div>
+    </footer>
+    <script>
+    $(function () {
+      // bx slider 초기화
+      $('.sub02-content').bxSlider({
+        // 옵션
+        //mode: "fade", // 효과
+        auto: true, // 자동재생(true/false)
+        pause: 2000, // 대기시간(ms),
+        pager: true, // 하단 인디케이터 표시
+        controls: true, // 좌우 화살표
+        captions: true,
+        autoHover: true, // 마우스오버시 정지
+        touchEnabled: true, // 터치 지원
+        minSlides: 1,
+        maxSlides: 1,
+        slideWidth: 1280
+      });
+    })
+  </script>
+</body>
+</html>
